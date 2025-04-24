@@ -11,11 +11,13 @@ body {
     background-image: url('img1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     color: black;
+    margin: 0;
 }
 
 .container {
@@ -99,10 +101,8 @@ footer {
     background-color: aliceblue; /* Cor de fundo do rodapé */
     color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    padding: 0; /* Espaçamento interno */
+    padding: 10px 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
-    bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
 
