@@ -116,6 +116,9 @@ footer {
     .search {
         max-width: 300px;
     }
+    footer {
+        position: absolute;
+    }
 }
 
 @media (max-width: 480px) {
@@ -132,5 +135,8 @@ footer {
     .card {
         width: 90%;
         max-width: none;
+    }
+    footer {
+        position: absolute;
     }
 }
